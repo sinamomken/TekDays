@@ -6,7 +6,7 @@ import com.tekdays.TekUser
 class BootStrap {
 
     def init = { servletContext ->
-        if (!TekEvent.get(1)) {
+        if (TekEvent.list().empty) {
 
             def user1 = new TekUser(
                     fullName: 'John Doe',

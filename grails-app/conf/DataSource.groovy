@@ -18,16 +18,17 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
+            dbCreate = "create" // one of 'create', 'create-drop', 'update', 'validate', ''
 //            url = "jdbc:mysql://localhost:3306/tekdays?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8"
-            url = "jdbc:mysql://localhost:3306/tekdays?autoReconnect=true&characterEncoding=UTF-8"
 //            url = "jdbc:mysql://localhost:3306/tekdays"
+            url = "jdbc:mysql://localhost:3306/tekdays?autoReconnect=true&characterEncoding=UTF-8"
         }
     }
     test {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+//            url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+            url = "jdbc:mysql://localhost:3306/tekdays?autoReconnect=true&characterEncoding=UTF-8"
         }
     }
     production {

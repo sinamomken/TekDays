@@ -17,10 +17,10 @@
 		<g:layoutHead/>
 	</head>
 	<body>
-		<div id="logo" role="banner" style="float: left">
-			<a href="${createLink(uri: '/')}">
+		<div id="logo" role="banner">
+			<a href="${createLink(uri: '/')}" >
 %{--				<asset:image src="grails_logo.png" alt="Grails"/>--}%
-				<img src="${resource(dir: 'images', file: 'karafarin-logo.png')}" width="200" alt="TekDays"/>
+				<img src="${resource(dir: 'images', file: 'karafarin-logo.png')}" width="200" alt="TekDays"  style="right: 0px;"/>
 			</a>
 		</div>
 		<g:layoutBody/>

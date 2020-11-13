@@ -7,6 +7,8 @@ class Sponsorship {
     String description
     String notes
 
+    static belongsTo = [TekEvent, Sponsor]
+
     String toString(){
         "$sponsor"
     }

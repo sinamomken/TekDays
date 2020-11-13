@@ -52,7 +52,8 @@
 		<g:message code="tekEvent.startDate.label" default="Start Date" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="startDate" precision="day"  value="${tekEventInstance?.startDate}"  />
+	<g:datePicker name="startDate" precision="day"
+				  value="${tekEventInstance?.startDate}" years="${2000..2030}" />
 
 </div>
 
@@ -61,7 +62,8 @@
 		<g:message code="tekEvent.endDate.label" default="End Date" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="endDate" precision="day"  value="${tekEventInstance?.endDate}"  />
+	<g:datePicker name="endDate" precision="day"
+				  value="${tekEventInstance?.endDate}" years="${2000..2030}" />
 
 </div>
 
