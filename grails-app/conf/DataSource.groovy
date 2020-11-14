@@ -18,7 +18,7 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = "create" // one of 'create', 'create-drop', 'update', 'validate', ''
+            dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
 //            url = "jdbc:mysql://localhost:3306/tekdays?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8"
 //            url = "jdbc:mysql://localhost:3306/tekdays"
             url = "jdbc:mysql://localhost:3306/tekdays?autoReconnect=true&characterEncoding=UTF-8"
