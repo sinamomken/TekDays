@@ -7,12 +7,12 @@ class TekDaysTagLib {
         def messages = attrs.messages.findAll {msg -> !msg.parent
             // or msg.parent == null
         }
-        processMessages(messages, 0)
+        processMessages(messages, 1)
     }
     void processMessages(messages, indent){
         messages.each {msg ->
             def body = "${msg?.author} - ${msg?.subject}"
-            out << "<p style='height:35; margin-left:${indent*20}px;'>"
+            out << "<p style='height:35; margin-left:${indent}em;'>"
             out << "${remoteLink(action: 'showDetail', id: msg.id, update: 'details', body)}"
             out << "</p>"
             def children = TekMessage.findAllByParent(msg)
