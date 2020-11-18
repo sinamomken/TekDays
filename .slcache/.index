@@ -5221,3 +5221,7 @@ n:2465:script16053599720781794977321$_run_closure3$_closure6
 n:2780:script16053599720781794977321$_run_closure3$_closure6$_closure9
 n:3744:script16053599720781794977321$_run_closure3$_closure6$_closure9$_closure10
 n:1170:org/codehaus/groovy/syntax/RuntimeParserException
+n:20802:org/codehaus/groovy/grails/plugins/web/filters/FilterConfig
+n:645:org/codehaus/groovy/runtime/dgm$294
+n:3536:org/codehaus/groovy/grails/plugins/web/filters/FiltersGrailsPlugin$__clinit__closure4$_closure5
+n:2441:org/codehaus/groovy/grails/plugins/web/filters/FiltersGrailsPlugin$__clinit__closure4$_closure6

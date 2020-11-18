@@ -20,8 +20,9 @@
 		<div id="logo" role="banner">
 			<a href="${createLink(uri: '/')}" >
 %{--				<asset:image src="grails_logo.png" alt="Grails"/>--}%
-				<img src="${resource(dir: 'images', file: 'karafarin-logo.png')}" width="200" alt="TekDays"  style="right: 0px;"/>
+				<img src="${resource(dir: 'images', file: 'karafarin-logo.png')}" width="200" alt="TekDays" id="logo_img"/>
 			</a>
+			<g:loginToggle/>
 		</div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>

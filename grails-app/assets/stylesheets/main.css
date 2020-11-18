@@ -48,7 +48,7 @@ body {
 }
 
 #logo {
-	background-color: #abbf78;
+	background-color: #fafafa;
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
@@ -89,7 +89,7 @@ img {
 
 /* GENERAL */
 
-#logo a {
+#logo_img {
 	display: inline-block;
 	margin: 1em;
 }
