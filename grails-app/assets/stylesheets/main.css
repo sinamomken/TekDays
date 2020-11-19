@@ -610,3 +610,15 @@ a.skip:focus, a.skip:active {
 	position: relative;
 	left: 0px;
 }
+
+#welcome {
+	margin: 1em;
+}
+
+.homeCell {
+	margin: 1em;
+}
+
+.right_aligned{
+	text-align: right;
+}
