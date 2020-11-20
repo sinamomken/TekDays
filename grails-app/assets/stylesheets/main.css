@@ -162,7 +162,7 @@ img {
 
 .nav li {
 	display: block;
-	float: right;
+	float: left;
 	list-style-type: none;
 	margin-right: 0.5em;
 	padding: 0;
@@ -611,14 +611,12 @@ a.skip:focus, a.skip:active {
 	left: 0px;
 }
 
-#welcome {
+#welcome, .homeCell {
 	margin: 1em;
-}
-
-.homeCell {
-	margin: 1em;
+	text-align: right;
+	direction: rtl;
 }
 
 .right_aligned{
-	text-align: right;
+	text-align: left;
 }
